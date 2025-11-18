@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logsoft - Soluções Inteligentes para Logística</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header com Menu Flutuante -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#sobre" class="logo-link">
+                        <img src="imagens/logsoft1.png" alt="Logsoft Logo" class="logo-img">
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#solucoes" class="nav-link">Soluções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="imagens/logsoft1.png" alt="Logsoft Logo" class="hero-logo-img">
+            </div>
+            <h1 class="hero-title">Transformando Logística com Tecnologia</h1>
+            <p class="hero-subtitle">Soluções inteligentes que otimizam operações e impulsionam resultados</p>
+            <a href="#solucoes" class="btn-primary">Conheça Nossas Soluções</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="sobre" class="section sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre a Logsoft</h2>
+            <div class="sobre-content">
+                <p class="sobre-text">
+                    A Logsoft é uma startup especializada em consultoria e desenvolvimento de soluções tecnológicas 
+                    para o setor logístico. Com um time de colaboradores que possuem mais de 25 anos de experiência no setor, transformamos operações complexas 
+                    em processos eficientes e inteligentes através de tecnologia de ponta, inteligência artificial 
+                    e automação.
+                </p>
+                <p class="sobre-text">
+                    Nossa missão é capacitar empresas a alcançarem excelência operacional, reduzindo custos, 
+                    aumentando a produtividade e melhorando a satisfação dos clientes. Trabalhamos com empresas 
+                    de todos os portes, desde startups até grandes corporações, oferecendo soluções personalizadas 
+                    que se adaptam às necessidades específicas de cada negócio.
+                </p>
+            </div>
+
+            <!-- Colaboradores -->
+            <div class="colaboradores-section">
+                <h3 class="colaboradores-title">Conheça Nossos Colaboradores</h3>
+                <div class="colaboradores-grid">
+                    <div class="colaborador-card">
+                        <div class="colaborador-image">
+                            <img src="imagens/cfc7edba-8cbf-4a10-b86a-5f95e9cf2e25.JPG" alt="Marco Lugão" class="colaborador-foto">
+                        </div>
+                        <h4 class="colaborador-nome">Marco Lugão</h4>
+                        <p class="colaborador-area">CEO & Leading Logistics Advisor</p>
+                        <p class="colaborador-descricao">
+                            Nosso CEO é um especialista em gestão e administração de empresas de logística com mais de 35 anos de experiência no setor.
+                            Atuando na gestão de grandes empresas em todas capitais da região sudeste, como ZAMED, Grupo Sinergia e Camilo dos Santos, 
+                            Marco têm vasta experiência em otimização de processos e redução de custos.
+                            
+                        </p>
+                    </div>
+
+                    <div class="colaborador-card">
+                        <div class="colaborador-image">
+                            <img src="imagens/IMG_1214.jpg" alt="Bruno do Vale" class="colaborador-foto">
+                        </div>
+                        <h4 class="colaborador-nome">Bruno do Vale</h4>
+                        <p class="colaborador-area">CTO & Lead Developer</p>
+                        <p class="colaborador-descricao">
+                            Com diversas certificações internacionais em tecnologia da informação, 
+                            Bruno é um desenvolvedor full stack focado em resolução de problemas reais com o foco em utilização de Inteligência Artificial e Automatização de processos.
+                        </p>
+                    </div>
+
+                    <div class="colaborador-card">
+                        <div class="colaborador-image">
+                            <div class="avatar-placeholder">
+                                <span>AD</span>
+                            </div>
+                        </div>
+                        <h4 class="colaborador-nome">Adolfo</h4>
+                        <p class="colaborador-area">Especialista em treinamentos para certificações ISO</p>
+                        <p class="colaborador-descricao">
+                            Adolfo é um especialista em treinamentos para certificações ISO 9001, ISO 14001 e ISO 45001.
+                            Com mais de 20 anos de experiência em treinamentos para certificações ISO, Adolfo é referência no mercado regional para a implantação e manutenção de sistemas e processoc de gestão de qualidade, meio ambiente e segurança do trabalho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- Soluções -->
+    <section id="solucoes" class="section solucoes">
+        <div class="container">
+            <h2 class="section-title">Nossas Soluções</h2>
+            <p class="section-subtitle">Tecnologia de ponta para transformar sua operação logística</p>
+
+            <!-- Tabs de Navegação -->
+            <div class="tabs-container">
+                <button class="tab-button active" data-tab="produtos">Produtos</button>
+                <button class="tab-button" data-tab="consultoria">Consultoria</button>
+                <button class="tab-button" data-tab="treinamentos">Treinamentos</button>
+            </div>
+
+            <!-- Conteúdo dos Tabs -->
+            <div class="tab-content active" id="produtos">
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <div class="produto-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="produto-title">Automatização de Picking</h3>
+                        <p class="produto-description">
+                            Sistema inteligente de picking que utiliza tecnologias de machine learning e 
+                            automação para otimizar o processo de separação de pedidos. Reduza erros 
+                            de volumetria e de separação de itens em até 95%.
+                        </p>
+                        <ul class="produto-features">
+                            <li>Integração com sistemas SSW</li>
+                            <li>Rastreamento em tempo real com RFID</li>
+                            <li>Relatórios de performance</li>
+                            <li>Suporte a múltiplos formatos de embalagem</li>
+                        </ul>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="produto-title">Smart Router</h3>
+                        <p class="produto-description">
+                            Algoritmos de inteligência artificial que calculam as rotas mais eficientes em tempo 
+                            real, considerando trânsito, custos de combustível, janelas de entrega e capacidade 
+                            dos veículos. Economize até 30% em custos de transporte.
+                        </p>
+                        <ul class="produto-features">
+                            <li>Otimização dinâmica de rotas</li>
+                            <li>Previsão de trânsito em tempo real</li>
+                            <li>Gestão de frota integrada</li>
+                            <li>Análise de custos detalhada</li>
+                        </ul>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <path d="M9 9h6M9 15h6M9 12h6"/>
+                            </svg>
+                        </div>
+                        <h3 class="produto-title">ERP para Logística</h3>
+                        <p class="produto-description">
+                            Sistema completo de gestão empresarial focado em operações logísticas. Integre 
+                            todas as áreas do seu negócio em uma única plataforma, desde o recebimento até 
+                            a entrega final.
+                        </p>
+                        <ul class="produto-features">
+                            <li>Gestão de estoque em tempo real</li>
+                            <li>Controle financeiro integrado</li>
+                            <li>Dashboard executivo</li>
+                            <li>API para integrações</li>
+                        </ul>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <h3 class="produto-title">Soluções Personalizadas</h3>
+                        <p class="produto-description">
+                            Desenvolvimento sob medida de sistemas e integrações específicas para atender 
+                            necessidades únicas do seu negócio. Nossa equipe trabalha em parceria com você 
+                            para criar a solução perfeita.
+                        </p>
+                        <ul class="produto-features">
+                            <li>Análise de necessidades</li>
+                            <li>Desenvolvimento ágil</li>
+                            <li>Suporte e manutenção</li>
+                            <li>Escalabilidade garantida</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="consultoria">
+                <div class="consultoria-content">
+                    <div class="consultoria-card">
+                        <h3 class="consultoria-title">Consultoria Estratégica em Logística</h3>
+                        <p class="consultoria-text">
+                            Nossa equipe de consultores especializados oferece análises profundas e estratégias 
+                            personalizadas para otimizar sua cadeia de suprimentos. Trabalhamos em todas as etapas, 
+                            desde o diagnóstico inicial até a implementação e acompanhamento de resultados.
+                        </p>
+                        <div class="consultoria-services">
+                            <div class="service-item">
+                                <h4>Análise de Processos</h4>
+                                <p>Mapeamento completo de processos logísticos com identificação de gargalos e oportunidades de melhoria.</p>
+                            </div>
+                            <div class="service-item">
+                                <h4>Otimização de Custos</h4>
+                                <p>Redução de custos operacionais através de análise de dados e implementação de melhores práticas.</p>
+                            </div>
+                            <div class="service-item">
+                                <h4>Gestão de Projetos</h4>
+                                <p>Acompanhamento completo de projetos de transformação logística com metodologias ágeis.</p>
+                            </div>
+                            <div class="service-item">
+                                <h4>Benchmarking</h4>
+                                <p>Comparação de performance com empresas do setor e definição de metas estratégicas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="treinamentos">
+                <div class="treinamentos-content">
+                    <div class="treinamentos-intro">
+                        <h3 class="treinamentos-title">Programas de Capacitação</h3>
+                        <p class="treinamentos-text">
+                            Capacite sua equipe com nossos programas de treinamento desenvolvidos por especialistas 
+                            do setor. Oferecemos cursos presenciais e adaptados às necessidades da sua empresa.
+                        </p>
+                    </div>
+                    <div class="treinamentos-grid">
+                        <div class="treinamento-card">
+                            <h4>Gestão de Armazém</h4>
+                            <p>Treinamento completo em operações de armazém, picking, estocagem e gestão de inventário.</p>
+                            <span class="treinamento-duracao">40 horas</span>
+                        </div>
+                        <div class="treinamento-card">
+                            <h4>Roteirização e Transporte</h4>
+                            <p>Capacitação em planejamento de rotas, gestão de frota e otimização de entregas.</p>
+                            <span class="treinamento-duracao">32 horas</span>
+                        </div>
+                        <div class="treinamento-card">
+                            <h4>Sistemas WMS/TMS</h4>
+                            <p>Treinamento prático em sistemas de gestão de armazém e transporte, incluindo configuração e operação.</p>
+                            <span class="treinamento-duracao">48 horas</span>
+                        </div>
+                        <div class="treinamento-card">
+                            <h4>Logística 4.0</h4>
+                            <p>Introdução às tecnologias emergentes: IoT, IA, blockchain e automação na logística.</p>
+                            <span class="treinamento-duracao">24 horas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section contato">
+        <div class="container">
+            <h2 class="section-title">Fale Conosco</h2>
+            <p class="section-subtitle">Estamos prontos para transformar sua operação logística</p>
+            
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Endereço</h3>
+                        <p>Rua João Teixeira Lopes Filho, 190<br>Juiz de Fora - MG, 36030-060</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <h3>Telefone</h3>
+                        <p>(32) 99996-8885 (WhatsApp)</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <h3>E-mail</h3>
+                        <p>comercial.lugao@gmail.com</p>
+                    </div>
+                </div>
+
+                <form class="contato-form" id="contatoForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="imagens/logsoft1.png" alt="Logsoft Logo" class="footer-logo">
+                    <p>Transformando logística com tecnologia de ponta.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Soluções</h4>
+                    <ul>
+                        <li><a href="#solucoes">Produtos</a></li>
+                        <li><a href="#solucoes">Consultoria</a></li>
+                        <li><a href="#solucoes">Treinamentos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Logsoft. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
