@@ -169,7 +169,7 @@ body {
     right: 0;
     bottom: 0;
     background: var(--gradient-dark);
-    background-image: url('imagens/ChatGPT Image 18 de nov. de 2025, 14_54_40.png');
+    background-image: url('imagens/ChatGPTImage18denov.de2025,14_54_40.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -991,4 +991,5 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-dark);
 }
+
 
